@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  width: 33.333%;
+  height: 250px;
+  font-size: 30px;
+  float: left;
+}
+
+.one {
+  background-color: lightcoral;
+}
+.two {
+  background-color: lightgreen;
+}
+.three {
+  background-color: lightblue;
+}
+/* four is optional */
+.four {
+  background-color: lightgoldenrodyellow;
+}
+
+h1 {
+  clear: both;
+  /* try without clear to find the difference */
+}
