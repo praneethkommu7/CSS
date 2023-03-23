@@ -1,0 +1,15 @@
+body {
+  text-align: center; /*inline Elements*/
+}
+
+.block {
+  background: lightseagreen;
+  width: 150px;
+  margin: 30px auto;
+}
+
+.inline {
+  background: lightpink;
+  color: black;
+  font-size: 30px;
+}

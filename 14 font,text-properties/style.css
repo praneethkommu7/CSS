@@ -1,0 +1,27 @@
+/* font-weight
+font-style
+text-align
+text-indent */
+
+.title {
+  font-style: italic;
+  text-align: center;
+}
+
+.one {
+  font-weight: bold;
+}
+
+.subHeading {
+  font-weight: bolder;
+  color: crimson;
+}
+
+.two {
+  text-indent: 50px;
+}
+
+.three {
+  font-style: oblique;
+  font-weight: bolder;
+}

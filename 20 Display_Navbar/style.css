@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Descendant Selectors */
+ul li {
+  /* list-style-type: lower-alpha; */
+  list-style-type: none;
+}
+
+/* Note: margin and padding only work for BLOCK elements not for INLINE elements */
+
+/* mobile NavBar */
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(48, 43, 43);
+  /* display: block; Converts inline to block elements */
+  display: inline-block; /* allowing elements to be inline and adding properties with block */
+  padding: 10px;
+  margin: 10px;
+}

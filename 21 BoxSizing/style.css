@@ -1,0 +1,26 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.box {
+  width: 200px;
+  color: white;
+  height: 200px;
+}
+
+.box1 {
+  background-color: red;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box2 {
+  background-color: green;
+}
+/* box2 and box3 overlaps */
+.box3 {
+  background-color: blue;
+  padding: 20px;
+}

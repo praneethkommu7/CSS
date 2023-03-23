@@ -1,0 +1,35 @@
+/* CSS Gradient: https://cssgradient.io/ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: orange;
+  min-height: 100vh;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.noGradient {
+  /* background-ShortCut: order is srictly followed */
+  background: url("../images/gradient.jpg") center/cover no-repeat fixed;
+
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+.gradient {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("../images/gradient.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}

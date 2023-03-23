@@ -1,0 +1,46 @@
+/* 1cm ~ 40px */
+h1 {
+  background-color: lightblue;
+  width: 240px;
+  font-size: 35px;
+}
+
+/* Percentage Values - RELATIVE depends on parent */
+.outer {
+  width: 300px;
+  height: 300px;
+  background-color: lightcoral;
+}
+.inner {
+  background: lightgreen;
+  width: 50%;
+  height: 50%;
+}
+
+/* em - Relative depends on parent
+1em = 16px default browser fontSize  */
+div {
+  font-size: 16px;
+}
+.relative {
+  font-size: 2em;
+  /* 2em * 16px(div-fontSize) = 32px */
+}
+.absolute {
+  font-size: 32px;
+}
+
+/* rem - Relative depends on "ROOT"
+1rem = 16px : default browser style */
+html {
+  font-size: 10px; /* Root */
+}
+
+.rem_relative {
+  font-size: 2rem;
+  /* 1rem * 10px(div-fontSize) = 10px */
+  /* 2rem * 10px(div-fontSize) = 20px */
+}
+.rem_absolute {
+  font-size: 30px;
+}

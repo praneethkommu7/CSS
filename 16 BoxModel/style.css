@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+img {
+  width: 400px;
+  margin: 30px 400px;
+}
+
+h1 {
+  background-color: lightgreen;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+p {
+  background-color: lightpink;
+  /* padding: 50px; all 4 sides */
+  /* padding: 30px 50px; (Top/Bottom) (left/Right) */
+  padding: 30px 50px 40px 20px;
+  /* padding: top right bottom left */
+}
+
+h3 {
+  margin: 20px 50px 30px 40px;
+  background-color: lightseagreen;
+  color: rgb(68, 63, 63);
+  padding: 30px 20px;
+  max-width: 10em;
+}
+
+h2 {
+  /* border: 5px solid black; */
+  border-top: 5px solid black;
+  border-left: 5px dashed green;
+  text-align: center;
+  padding-top: 70px;
+  background-color: lightgreen;
+  width: 300px;
+  height: 100px;
+  margin: 50px;
+}

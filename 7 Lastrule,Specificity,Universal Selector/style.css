@@ -1,0 +1,32 @@
+/* Last Rule, Specificity,  * Universal Selector  */
+
+/* last rule: property added last will be prioritized  */
+/* h1 {
+  color: Red;
+}
+h1 {
+  color: blue;
+} */
+
+/* Specificity: priority properties will have more impact */
+/* #id > .class > Element[TAGS] */
+
+#three_id {
+  color: brown;
+}
+
+.two_class {
+  color: green;
+}
+
+h1 {
+  color: blue;
+}
+
+/* Universal Selector */
+/* This has low specificity than others */
+* {
+  margin: 0;
+  padding: 0;
+  color: orange;
+}

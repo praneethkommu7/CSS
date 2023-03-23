@@ -1,0 +1,32 @@
+/* line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration */
+
+.one {
+  background-color: lightcoral;
+  line-height: 2rem;
+}
+.two {
+  background-color: lightcoral;
+  letter-spacing: 7px;
+}
+.three {
+  background-color: lightcoral;
+  word-spacing: 30px;
+}
+
+h1 {
+  /* text-transform: uppercase; */
+  /* text-transform: lowercase; */
+  text-transform: capitalize;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+.a_fb {
+  text-decoration: line-through;
+}

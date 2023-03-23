@@ -1,0 +1,33 @@
+div {
+  min-height: 100vh;
+  color: whitesmoke;
+  display: flex;
+  font-size: 70px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.lappy {
+  background: url("../images/lappy.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.beach {
+  background: url("../images/beach.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+.coffee {
+  background: url("../images/coffee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

@@ -1,0 +1,31 @@
+/* color name
+rgb (RED, GREEN, BLUE) 0-255 
+rgba 0-1 opacity/transparency
+HEX values #RRGGBB - FFFFFF - White & 000000 - Black
+*/
+
+/* Best Color Picker:  https://coolors.co/ */
+
+/* color Name */
+#first {
+  color: crimson;
+  background: beige;
+}
+
+/* rgb */
+#second {
+  color: rgb(0, 255, 0);
+  background-color: rgb(85, 107, 47);
+}
+
+/* rgba */
+#third {
+  color: rgb(42, 255, 237, 1);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* Hex value */
+#fourth {
+  color: #0000ff;
+  background-color: #cd5c5c;
+}

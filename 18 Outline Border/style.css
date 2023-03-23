@@ -1,0 +1,22 @@
+div {
+  padding-top: 100px;
+}
+
+a {
+  background-color: lightblue;
+  padding: 30px;
+  margin-left: 100px;
+  color: black;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.one {
+  border: 5px solid lightcoral;
+  /* NO border-offset */
+}
+
+.two {
+  outline: 5px solid lightcoral;
+  outline-offset: 5px;
+}

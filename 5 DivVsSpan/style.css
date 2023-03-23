@@ -1,0 +1,17 @@
+/* Div vs Span */
+
+span {
+  text-transform: uppercase;
+  color: crimson;
+  font-weight: bold;
+}
+
+.div_red {
+  color: red;
+  background-color: burlywood;
+}
+
+.div_green {
+  color: green;
+  background-color: darkgray;
+}

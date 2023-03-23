@@ -1,0 +1,22 @@
+/* calc()
+perform math operations + - * /
+mix and match values */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  color: crimson;
+  font-size: 3rem;
+  background: lightblue;
+  height: 100px;
+}
+
+.banner {
+  background-color: lightpink;
+  /* min-height: 100vh; we got scroll, but by adding calc() we fit it */
+  min-height: calc(100vh - 100px);
+}
