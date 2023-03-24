@@ -1,0 +1,30 @@
+/* due to specificity these class elements will apply not div elements */
+.heading h1 {
+  color: lightblue;
+}
+
+.heading > h1 {
+  color: lightgreen;
+}
+
+/* descendant */
+div h1 {
+  color: brown;
+}
+
+/* child  */
+div > h1 {
+  color: coral;
+}
+
+p {
+  text-indent: 40px;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+p::first-letter {
+  color: red;
+  font-size: 50px;
+}

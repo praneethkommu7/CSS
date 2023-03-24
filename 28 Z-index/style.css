@@ -1,0 +1,34 @@
+/* z-index 
+    position: static will not work. 
+    higher z-index => top on the page
+*/
+
+.banner {
+  border: 5px solid black;
+  width: 80vw;
+  height: 80vh;
+  padding: 10px;
+  position: relative;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.flower {
+  top: 0%;
+  left: 0%;
+  z-index: 0;
+}
+.lappyZ-index {
+  top: 10%;
+  left: 10%;
+  z-index: 1;
+}
+.coffee {
+  top: 20%;
+  left: 20%;
+  z-index: 2;
+}

@@ -1,0 +1,84 @@
+/* 
+    Media Queries
+    Responsive Design
+    Style elments on Diffrent Screen Sizes
+    min-width: --starting from
+    max-width: --up to
+    Mobile First
+*/
+
+body {
+  background: lightgoldenrodyellow;
+}
+
+.banner {
+  background: lightgray;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 60px;
+  padding: 20px;
+}
+
+/* max-width is for smallScreens px Size: for high to low */
+
+@media screen and (max-width: 768px) {
+  body {
+    background: lightgreen;
+  }
+  .banner {
+    background: lightcoral;
+  }
+  h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    background: lightseagreen;
+  }
+  .banner {
+    background: rgb(92, 88, 88);
+  }
+  h1 {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+/* min-width is for largeScreens px Size: for low to High */
+
+/* @media screen and (min-width: 576px) {
+  body {
+    background: lightseagreen;
+  }
+  .banner {
+    background: rgb(92, 88, 88);
+  }
+  h1 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background: lightgreen;
+  }
+  .banner {
+    background: lightcoral;
+  }
+  h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    color: white;
+  }
+} */

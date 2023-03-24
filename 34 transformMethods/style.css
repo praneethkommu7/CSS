@@ -1,0 +1,48 @@
+/* 
+  transform: translate(), scale(), rotate(), skew()
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 10px;
+  border: 2px solid black;
+}
+div {
+  width: 150px;
+  height: 150px;
+  margin: 30px;
+  display: inline-block;
+}
+
+.one {
+  background: orangered;
+  /* transform: translateX(30%); */
+  /* transform: scaleX(0.5); */
+  /* rotate: x-constant */
+  /* transform: rotateX(50deg); */
+  /* transform: skewX(20deg); */
+}
+
+.two {
+  background: blue;
+  /* transform: translateY(30px); */
+  /* transform: scaleY(0.7); */
+  /* rotate: y-constant */
+  /* transform: rotateY(70deg); */
+  /* transform: skewY(25deg); */
+}
+
+.three {
+  background: green;
+  /* transform: translate(20px, 40px); */
+  /* transform: translate(75px); */
+  /* transform: scale(0.5, 0.5); */
+  /* transform: scale(0.7); */
+  /* transform: rotateZ(45deg); */
+  /* transform: rotate(45deg); */
+  /* transform: skew(20deg); ONly X - Direction */
+}

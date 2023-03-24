@@ -1,0 +1,91 @@
+/* before and after are inline elements
+    doesn't work for images
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p::before {
+  content: "before Psudo Element "; /*Mandatory*/
+  color: rgb(61, 54, 54);
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  background-color: lightcoral;
+}
+/* p::after {
+  content: " After Psudo Element ";
+  padding: 10px;
+  color: rgb(179, 33, 33);
+  font-size: 20px;
+  display: block;
+  background: lightgreen;
+} */
+p::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+  background: lightgreen;
+}
+
+.frame {
+  /* border: 5px solid lightcoral; */
+  margin: 100px auto;
+  width: 30vw;
+  height: 60vh;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: all 0.5s linear;
+}
+/* img::before {
+    content: "image ::before";
+}
+img::after {
+    content: "image ::after";
+} */
+
+.frame::before {
+  content: "";
+  border: 3px solid grey;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -60px;
+  left: -60px;
+  z-index: -2;
+  transition: all 0.5s linear;
+}
+.frame::after {
+  content: "";
+  background: gray;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -30px;
+  left: -30px;
+  z-index: -1;
+  transition: all 0.5s linear;
+}
+
+.frame:hover::after,
+.frame:hover::before {
+  top: 0;
+  left: 0;
+}
+
+img:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,20 @@
+* {
+  color: cornflowerblue;
+}
+
+#heading {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: lightcoral;
+}
+
+.heading {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: lightgreen;
+}
+
+p {
+  font-family: monospace;
+  letter-spacing: 10px;
+}

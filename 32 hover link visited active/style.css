@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden; /* remove scroll bar*/
+}
+
+a {
+  margin: 20px;
+  font-size: 30px;
+}
+a:link {
+  color: orangered;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: blue;
+}
+a:active {
+  color: green;
+}
+
+/* hover */
+div {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  padding: 10px 25px;
+  font-size: 40px;
+  color: white;
+  background-color: lightcoral;
+  border: 1px solid lightcoral;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+  font-size: 40px;
+  background-color: rgb(56, 50, 50);
+  border: 1px solid lightcoral;
+  color: wheat;
+}
